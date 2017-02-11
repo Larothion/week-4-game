@@ -29,6 +29,9 @@ Once all 3 are defeated, it display "You Won!! Game Over!" and displays the rest
 
 /*Crystals-Game Psuedo Code*/
 $(document).ready(function() {
+	var mainAudio = new Audio('assets/audio/minecraft-theme-song.mp3');
+	var mining = new Audio('assets/audio/gravel1.mp3');
+	mainAudio.play(mainAudio);
 /*Display title, textbox with information, and bottom crystal layout*/
 
 	var oneHundred = 100;
@@ -109,6 +112,7 @@ losses to the right of that*/
 
 
 	$(".crystalOne").on("click", function() {
+		mining.play(mining);
 	    playerScore = crystalOneScore + playerScore;
 	    console.log(playerScore);
 	    $(".playerScore").html("<p>" + playerScore + "</p>");
@@ -131,6 +135,7 @@ losses to the right of that*/
 	}
 	});
 	$(".crystalTwo").on("click", function() {
+		mining.play(mining);
 	     playerScore = crystalTwoScore + playerScore;
 	    console.log(playerScore);
 	    $(".playerScore").html("<p>" + playerScore + "</p>");
@@ -153,6 +158,7 @@ losses to the right of that*/
 
 	});
 	$(".crystalThree").on("click", function() {
+		mining.play(mining);
 	    playerScore = crystalThreeScore + playerScore;
 	    console.log(playerScore);
 	    $(".playerScore").html("<p>" + playerScore + "</p>");
@@ -175,6 +181,7 @@ losses to the right of that*/
 	}
 	});
 	$(".crystalFour").on("click", function(){
+		mining.play(mining);
 	    playerScore = crystalFourScore + playerScore;
 	    console.log(playerScore);
 	    $(".playerScore").html("<p>" + playerScore + "</p>");

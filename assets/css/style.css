@@ -1,70 +1,104 @@
+
+.centerBg{
+	background-image: url(../images/minecraft-bg-1.png);
+}
+
 .minecraftTitle {
 	position: relative;
 	height: 100px;
-	background-color: orange;
-
+	background-color: #e7be6f;
+	margin-left: 40px;
+	font-family: 'Press Start 2P', cursive;
 
 }
 
 .minecraftTitle p {
 	position: absolute;
-	top: 30%;
-	left: 25%;
-
+	top: 20%;
+	left: 5%;
 	font-size: 30px;
 	text-align: center;
 	;
 }
 
 .instructions {
-	font-size: 20px;
+	font-size: 15px;
 	border: 3px solid #cccccc;
 	margin: 10px 0 10px 0;
-	background-color: green;
+	background-color: #a5ce4a;
+	margin-left: 40px;
+	font-family: 'Press Start 2P', cursive;
 }
 
 .computerScore {
-	font-size: 20px;
+	position:relative;
+	font-size: 15px;
 	border: 3px solid #cccccc;
 	margin: 0 0 10px 0;
-	background-color: yellow;
+	background-color: #441c9b;
 	height: 100px;
+	margin-left: 40px;
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.computerScore p {
+	margin-top: 10px;
+}
+
+#score {
+	position: relative;
+	top: 20%;
+	font-size: 25px;
 }
 
 .wins-losses {
 	font-size: 20px;
 	border: 3px solid #cccccc;
 	margin: 0 0 10px 10px;
-	background-color: #ffcccc;
+	background-color: #00bcbd;
 	height: 100px;
+}
+
+.winnerDisplay {
+	color: white;
+	font-size: 25px;
+}
+
+.rock-images {
+	margin-left: 13px;
+	margin-bottom: 10px;
 }
 
 .scoreTitle {
 	position: relative;
-	background-color: teal;
+	background-color:  #a5ce4a;
 	border: 1px solid #cccccc;
 	height: 50px;
+	margin-left: 40px;
 }
 
 .scoreTitle p {
-	position: absolute;
+	margin-top: 13px;
 	top: 30%;
-	left: 25%;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
+	font-family: 'Press Start 2P', cursive;
 }
 
 .playerScore {
 	position: relative;
 	height: 100px;
-	background-color: teal;
+	background-color: #e7be6f;
 	margin-top: 10px;
+	margin-left: 40px;
+	margin-bottom: 10px;
 }
 
 .playerScore p {
-	position: absolute;
-	top: 30%;
-	left: 25%;
-	font-size: 20px;
+	margin-top: 40px;
+	font-size: 30px;
 	text-align: center;
+	font-family: 'Press Start 2P', cursive;
 }
