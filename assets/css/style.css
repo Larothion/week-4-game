@@ -1,0 +1,70 @@
+.minecraftTitle {
+	position: relative;
+	height: 100px;
+	background-color: orange;
+
+
+}
+
+.minecraftTitle p {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+
+	font-size: 30px;
+	text-align: center;
+	;
+}
+
+.instructions {
+	font-size: 20px;
+	border: 3px solid #cccccc;
+	margin: 10px 0 10px 0;
+	background-color: green;
+}
+
+.computerScore {
+	font-size: 20px;
+	border: 3px solid #cccccc;
+	margin: 0 0 10px 0;
+	background-color: yellow;
+	height: 100px;
+}
+
+.wins-losses {
+	font-size: 20px;
+	border: 3px solid #cccccc;
+	margin: 0 0 10px 10px;
+	background-color: #ffcccc;
+	height: 100px;
+}
+
+.scoreTitle {
+	position: relative;
+	background-color: teal;
+	border: 1px solid #cccccc;
+	height: 50px;
+}
+
+.scoreTitle p {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.playerScore {
+	position: relative;
+	height: 100px;
+	background-color: teal;
+	margin-top: 10px;
+}
+
+.playerScore p {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	font-size: 20px;
+	text-align: center;
+}
