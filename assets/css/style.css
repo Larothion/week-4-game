@@ -71,6 +71,11 @@
 	margin-bottom: 10px;
 }
 
+.crystal-hover:hover {
+	background-color: #e7be6f;
+	cursor: pointer;
+}
+
 .scoreTitle {
 	position: relative;
 	background-color:  #a5ce4a;

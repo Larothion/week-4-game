@@ -50,7 +50,7 @@ $(document).ready(function() {
   		var crystalTwoScore = 0;
   		var crystalThreeScore = 0;
   		var crystalFourScore = 0;
-  		var computerScore = 19 + Math.floor(Math.random() * oneHundred);
+  		computerScore = 19 + Math.floor(Math.random() * oneHundred);
   		document.getElementById("score").innerHTML = computerScore;
   		var crystalArray = [1,2,3,4,5,6,7,8,9,10,11,12];
 		console.log(crystalArray);
