@@ -1,6 +1,6 @@
 
 .centerBg{
-	background-image: url(../images/minecraft-bg-1.png);
+	background-image: url(../images/Minecraft-bg-1.png);
 }
 
 .minecraftTitle {
@@ -72,7 +72,7 @@
 }
 
 .crystal-hover:hover {
-	background-color: #e7be6f;
+	border: 3px solid #ffffff;
 	cursor: pointer;
 }
 
